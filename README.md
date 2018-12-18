@@ -4,6 +4,7 @@ Photographing Chinese-Name-Address implemented using CTPN+CTC+Address Correction
 ## Method 
 Text Detection : CTPN (https://arxiv.org/pdf/1609.03605.pdf)  
 Text Recognition: CTC+DenseNet（https://github.com/YCG09/chinese_ocr)
+
 Address Judgment: Light GBM or textgrocery (https://github.com/2shou/TextGrocery)  
 Address Correction: Fuzzy matching based on address library   
 ## About Code
